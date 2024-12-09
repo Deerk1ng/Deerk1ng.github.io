@@ -293,7 +293,11 @@ article.active {
 }
 
 
-
+.skills-icon {
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
 
 
 /*-----------------------------------*\
@@ -778,12 +782,23 @@ main {
   align-items: center;
   gap: 15px;
   margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  flex-wrap: wrap;
 }
 
 .timeline-list {
   font-size: var(--fs-6);
   margin-left: 45px;
 }
+
 
 .timeline-item { position: relative; }
 
