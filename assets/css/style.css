@@ -293,12 +293,6 @@ article.active {
 }
 
 
-.skills-icon {
-  color: white;
-  margin: 10px;
-  text-align: center;
-}
-
 
 /*-----------------------------------*\
   #MAIN
@@ -785,14 +779,7 @@ main {
   margin-top: 10px;
 }
 
-.skills-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 25px;
-  margin-top: 10px;
-  flex-wrap: wrap;
-}
+
 
 .timeline-list {
   font-size: var(--fs-6);
@@ -882,6 +869,20 @@ main {
   border-radius: inherit;
 }
 
+.skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.skills-icon {
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
 
 
 
